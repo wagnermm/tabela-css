@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/play.jpg);
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    align-items: center;
+}
+
+.content {
+    width: 30%;
+    margin: 5px;
+    background: rgb(18, 30, 37);
+    border: 1px solid white;
+    border-radius: 20px;
+    float: left;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.content:hover {
+    background: rgba(18, 30, 37, 0.8);
+}
+
+.preco {
+    width: 120px;
+    height: 120px;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
+.detalhe {
+    margin-top: -30px;
+}
+
+.content h1 {
+    font-size: 20px;
+    color: white;
+    line-height: 5;
+    text-transform: uppercase;
+}
+
+.preco h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.detalhe h4 {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    line-height: 2;
+}
+
+.content a {
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content a:hover {
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid rgb(7, 34, 51);
+    background: rgba(255, 255, 255, 0.8);
+    color: rgb(7, 34, 51);
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media(max-width: 480px) {
+    
+    .content {
+        width: 80%;
+        margin: 5rem;
+    }
+    
+    .content h1 {
+        font-size: 30px;
+        color: white;
+        line-height: 5;
+        text-transform: uppercase;
+    }
+    
+    .preco h2 {
+        font-size: 60px;
+        color: white;
+    }
+    
+    .detalhe h4 {
+        font-size: 25px;
+        font-weight: normal;
+        text-align: center;
+        color: white;
+        line-height: 2;
+    }
+}
